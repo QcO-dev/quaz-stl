@@ -5,6 +5,10 @@ public class Stdout {
 		System.out.println(val);
 	}
 	
+	public static void println(char val) {
+		System.out.println(val);
+	}
+	
 	public static void println(double val) {
 		System.out.println(val);
 	}
