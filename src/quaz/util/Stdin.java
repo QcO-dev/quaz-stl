@@ -20,6 +20,22 @@ public class Stdin {
 		return scanner.nextLine();
 	}
 	
+	public static String input(short obj) {
+		System.out.print(obj);
+		return scanner.nextLine();
+	}
+	
+	public static String input(long obj) {
+		System.out.print(obj);
+		return scanner.nextLine();
+	}
+	
+	
+	public static String input(byte obj) {
+		System.out.print(obj);
+		return scanner.nextLine();
+	}
+	
 	public static String input(int obj) {
 		System.out.print(obj);
 		return scanner.nextLine();
